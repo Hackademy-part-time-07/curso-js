@@ -202,50 +202,213 @@ console.log(5);
 // .
 // .
 // .
-console.log(10);
+// console.log(10);
 
-for(let i = 1; i <= 10; i++) {
-  console.log(i,'hola');
-}
+// for(let i = 1; i <= 10; i++) {
+//   console.log(i,'hola');
+// }
 
-for(let i = 1; i <= 5; i++) {
-  console.log(i*10);
-}
+// for(let i = 1; i <= 5; i++) {
+//   console.log(i*10);
+// }
 
-console.log(1*2);
-console.log(2*2);
-console.log(3*2);
-console.log(4*2);
-console.log(5*2);
-console.log(6*2);
-console.log(7*2);
-console.log(8*2);
-console.log(9*2);
-console.log(10*2);
+// console.log(1*2);
+// console.log(2*2);
+// console.log(3*2);
+// console.log(4*2);
+// console.log(5*2);
+// console.log(6*2);
+// console.log(7*2);
+// console.log(8*2);
+// console.log(9*2);
+// console.log(10*2);
 
-for(let i = 1; i <= 10; i++){
-  console.log(i * 2);
-}
+// for(let i = 1; i <= 10; i++){
+//   console.log(i * 2);
+// }
 
-console.log(3.14 * 1**2);
-console.log(3.14 * 2**2);
-console.log(3.14 * 3**2);
-console.log(3.14 * 4**2);
-console.log(3.14 * 5**2);
-console.log(3.14 * 6**2);
-console.log(3.14 * 7**2);
+// console.log(3.14 * 1**2);
+// console.log(3.14 * 2**2);
+// console.log(3.14 * 3**2);
+// console.log(3.14 * 4**2);
+// console.log(3.14 * 5**2);
+// console.log(3.14 * 6**2);
+// console.log(3.14 * 7**2);
 
-for(let r = 1; r <= 20; r++) {
-  var respuesta =  3.14 * r**2
-  console.log(respuesta);
-}
+// for(let r = 1; r <= 20; r++) {
+//   var respuesta =  3.14 * r**2
+//   console.log(respuesta);
+// }
 
-console.log(respuesta);
+// console.log(respuesta);
 
-//ej
+// //ej
 
-for(let i = 1; i <= 20; i++){
-  if (i % 2 == 0) {
-    console.log(`el numero ${i} es divisible por 2`);
-  }
-}
+// for(let i = 1; i <= 20; i++){
+//   if (i % 2 == 0) {
+//     console.log(`el numero ${i} es divisible por 2`);
+//   }
+// }
+
+//CICLO WHILE
+
+//tenemos que crear la variable de inicializacion y tambien aumentar esta internamente al ciclo while
+
+// let cont = 0;
+
+// while (cont <= 10) {
+//   console.log(cont);
+
+//   cont++
+// }
+
+// //simpre va a ejecutar los comandos internos al do al menos una vez
+
+// let cont_2 = 1;
+
+// do {
+//   console.log(cont_2);
+
+//   cont_2++
+// } while (cont_2 <= 10);
+
+// while (true) {
+//   let clave = prompt('ingrese contraseña')
+
+//   if (clave == '1234') {
+//     break
+//   }
+//   alert('contraseña incorrecta')
+// };
+
+// // pi*r**2
+
+// let r = 1;
+
+// while (r <= 10) {
+//   console.log((Math.PI*Math.pow(r,2)).toFixed(2));
+//   r++
+// }
+
+// //
+
+// let p = 1;
+
+// while (p <= 50) {
+//   console.log(Math.pow(p,3));
+
+//   p++
+// }
+
+//
+
+// let b = 0;
+
+// let c = 0;
+// let prev = 0;
+// let prev1 = 1;
+
+// while (b <= 10) {
+//   c = prev + prev1
+
+//   prev = prev1
+
+//   prev1 = c
+
+//   console.log(c);
+
+//   b++
+// }
+
+
+//FUNCIONES 
+
+// /*----------------------- fin de mi biblioteca de funciones ------------------------*/
+// function saluda(nombre){
+//   return `hola ${nombre} que tal esta tu dia`
+// }
+
+// function adios(nombre) {
+//   return `adios ${nombre}`
+// }
+
+// function enojo(nombre) {
+//   return `estoy enojado ${nombre}`
+// }
+
+// function suma(num1,num2) {
+//   let result = num1 + num2
+//   return `la suma entre ${num1} y ${num2} es igual a ${result}`
+// }
+
+// function resta(num1,num2) {
+//   let result = num1 - num2
+//   return `la resta entre ${num1} y ${num2} es igual a ${result}`
+// }
+
+// function raiz(num1,num2) {
+//   let hipotenusa = Math.sqrt(Math.pow(num1,2)+ Math.pow(num2,2))
+//   return `la hipotenusa del triangulo con altura ${num1} y base ${num2} es igual ${hipotenusa.toFixed(2)}`
+// }
+
+// function saludo(nombre, apellido) {
+//   return `hola buenas ${nombre} de ${apellido}`
+// }
+
+// function area_circulo(r) {
+//   let result = (Math.PI * Math.pow(r,2)).toFixed(3)
+//   return `el area del circulo con radio ${r} es igual a ${result}`
+// }
+
+// function num_div(numa) {
+//   let result;
+
+//   if (numa % 3 == 0) {
+//     result = `el numero ${numa} es divisible por 3`
+//   } else {
+//     result = `el numero ${numa} no es divisible por 3`
+//   }
+  
+//   return result
+// }
+
+// function num_n(num1,num2) {
+//   let result;
+//   if (num1 % num2 == 0) {
+//     result = `el numero ${num1} es divisible por ${num2}`
+//   } else {
+//     result = `el numero ${num1} no es divisible por ${num2}`
+//   }
+
+//   return result
+// }
+
+
+
+// /*----------------------- fin de mi biblioteca de funciones ------------------------*/
+
+// console.log(resta(891448,654789));
+
+// console.log(saluda('adrian'));
+// console.log(saluda('roberto'));
+// console.log(saluda('eloy'));
+// console.log(saluda('xavier'));
+// console.log(saluda('leandro'));
+
+// console.log(enojo('pepe'));
+// console.log(saluda('pepe'));
+// console.log(adios('pepe'));
+
+// console.log(suma(45.3968,9.25));
+
+// console.log(raiz(20,13));
+
+// console.log(area_circulo(10));
+
+// console.log(num_div(85));
+
+// console.log(num_div(21));
+
+// console.log(num_div(245981689999999999990));
+
+// console.log(num_n(400,5));
