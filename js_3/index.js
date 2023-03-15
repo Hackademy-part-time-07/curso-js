@@ -411,4 +411,93 @@ console.log(5);
 
 // console.log(num_div(245981689999999999990));
 
-// console.log(num_n(400,5));
+// // console.log(num_n(400,5));
+
+// let div_ramdom = (num,num2) => {
+//   if (num % num2 == 0) {
+//     return `el numero ${num} es divisible por ${num2}`
+//   } else {
+//     return `el numero ${num} no es divisible por ${num2}`
+//   }
+// } 
+
+// let data = prompt('ingrese un numero')
+
+// for (let i = 1; i <= 20; i++) {
+//   console.log(div_ramdom(i, data));
+// }
+
+// // funcion de expresion
+
+// let saluda = function (nombre) {
+//   return `hola ${nombre} que tal esta tu dia`
+// }
+
+// let suma = function (a, b) {
+//   return `la suma de ${a} + ${b} es igual a ${a + b}`
+// }
+
+// let div_3 = function (a) {
+//   let result;
+
+//   if (a % 3 == 0) {
+//     result = `el numero ${a} es divisible por 3`
+//   } else {
+//     result = `el numero ${a} no es divisible por 3`
+//   }
+
+//   return result
+// }
+
+// //arrow function
+
+// let area_circulo = (r) => {
+//   let result = (Math.PI * Math.pow(r,2)).toFixed(3)
+//   return `el area del circulo con radio ${r} es igual a ${result}`
+// }
+
+// let div_2 = (resp) => {
+//   let result;
+
+//   if (resp % 2 == 0) {
+//     result = `el numero ${resp} es divisible entre 2`
+//   } else {
+//     result = '';
+//   }
+
+//   return result
+// }
+
+// let div_ramdom = (num,num2) => {
+//   if (num % num2 == 0) {
+//     return `el numero ${num} es divisible por ${num2}`
+//   } else {
+//     return `el numero ${num} no es divisible por ${num2}`
+//   }
+// }
+
+// function getRamdom() {
+//   let ramdom_number = Math.random() * 10
+//   ramdom_number = parseInt(ramdom_number) 
+
+//   return ramdom_number
+// }
+
+// /* ------------------------------------------------------------------  */
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(area_circulo(i));
+// }
+
+// for (let i = 1; i <= 20; i++) {
+//   console.log(div_2(i));
+// }
+
+
+// let num1 = getRamdom()
+// let num2 = getRamdom()
+
+// for (let i = 1; i <= 20; i++) {
+//   console.log(div_ramdom(i, num1));
+//   console.log(div_ramdom(i, num2));
+// }
