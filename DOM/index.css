@@ -1,0 +1,143 @@
+.img_model {
+  height: 33rem;
+}
+
+.c_all {
+  text-align: center;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+.principal_title{
+  text-align: center;
+  margin-top: 5rem;
+  color: rgb(255, 153, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Alkatra', cursive;
+}
+
+#hero__container {
+  height: 80vh;
+  width: 100%;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  background-color: aliceblue;
+  background-color: rgba(80, 125, 100, 0.2);
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.card_body_of {
+  display: none;
+}
+
+.squere_color {
+  margin-top: 2rem;
+  width: 200px;
+  height: 200px;
+  border: solid 1px black;
+}
+
+#register__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  position: fixed;
+  background-color: gainsboro;
+  padding: 1rem;
+  border-radius: 7px;
+  z-index: 99;
+  top: 5rem;
+  margin-left: 7%;
+  border: solid 1px #dc3545;
+  
+}
+
+#register__container form {
+  width: 80%;
+}
+
+#register__container .item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+#register__container .close_form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#register__container .close_form  button{
+  width: 30px;
+  text-align: center;
+  font-family: 'Alkatra', cursive;
+  border: solid 1px #dc3545;
+  border-radius: 7px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+#register__container .item input {
+  border: none;
+  border-bottom: solid 1px #dc3545;
+  border-radius: 7px;
+  margin-top: 0.5rem;
+}
+
+#register__container .btn_container{
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.animation_grow {
+  animation: crecer 2s;
+}
+
+.animation_right {
+  animation: ap_derecha 2s;
+}
+
+
+@keyframes crecer {
+  0% {scale: 1;}
+  100% {scale: 1.1;}
+}
+
+@keyframes ap_derecha {
+  0% {left: 100%;}
+  100% {left: 0%;}
+}
+
+.starts {
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  align-items: center;
+  margin-bottom: 2rem;
+}
